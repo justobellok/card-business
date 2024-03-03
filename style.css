@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin: 10px;
+    width: 418px;
+    border-radius: 9px;
+}
+
+hr{
+  opacity: .3;
+}
+
+.container img{
+    width: 100%;
+    border-radius: 9px 9px 0 0;
+}
+
+svg{
+    position: relative;
+    bottom: 40px;
+}
+
+h1{
+    font-family: "poppins";
+}
+
+.info p{
+    color: #677489;
+    font-family: "lato";
+}
+
+section{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+article .avatar{
+   border-radius: 50%;
+   width: 40px;
+   height: 40px;
+}
+
+strong{
+    font-family: "poppins";
+    font-weight: bold;
+}
